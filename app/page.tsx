@@ -273,6 +273,9 @@ export default function Home() {
               <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
                 MySQL
               </div>
+              <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
+                Bootstrap
+              </div>
             </div>
           </div>
           {/* End Card Project 5 */}
@@ -303,10 +306,13 @@ export default function Home() {
               <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
                 MySQL
               </div>
+              <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
+                Bootstrap
+              </div>
             </div>
           </div>
           {/* End Card Project 6 */}
-          {/* Card Project 6 */}
+          {/* Card Project 7 */}
           <div>
             <h3 className="font-medium flex items-center gap-2">
               POS Fuad Frozen Food Apps
@@ -334,14 +340,17 @@ export default function Home() {
               <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
                 MySQL
               </div>
+              <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
+                Filament
+              </div>
             </div>
           </div>
-          {/* End Card Project 6 */}
+          {/* End Card Project 7 */}
           <Link
             href="https://github.com/diimprasetyos?tab=repositories"
             className="text-sm text-blue-600 hover:text-blue-400 flex items-center underline"
           >
-            Find more project on my github repository
+            Explore more project on my github repository
             <ExternalLink size={14} />
           </Link>
         </div>
