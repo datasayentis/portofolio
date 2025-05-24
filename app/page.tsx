@@ -306,6 +306,37 @@ export default function Home() {
             </div>
           </div>
           {/* End Card Project 6 */}
+          {/* Card Project 6 */}
+          <div>
+            <h3 className="font-medium flex items-center gap-2">
+              POS Fuad Frozen Food Apps
+              <Link
+                href="https://github.com/datasayentis/pos-larament"
+                className="inline-flex items-center text-sm underline text-blue-600 hover:text-blue-400"
+              >
+                <span>View Project</span>
+                <ExternalLink size={16} />
+              </Link>
+            </h3>
+            <p className="text-gray-800 mb-4">
+              Fuad Frozen Food POS application, built with Laravel and Filament,
+              is designed to streamline sales operations. It will feature robust
+              CRUD (Create, Read, Update, Delete) functionalities for managing
+              both products and transactions, alongside an essential invoice
+              printing capability to provide customers with clear purchase
+              receipts.
+            </p>
+            {/* Technologies */}
+            <div className="flex flex-wrap gap-2">
+              <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
+                Laravel
+              </div>
+              <div className="border border-gray-200 px-2 py-1 text-sm rounded-sm">
+                MySQL
+              </div>
+            </div>
+          </div>
+          {/* End Card Project 6 */}
           <Link
             href="https://github.com/diimprasetyos?tab=repositories"
             className="text-sm text-blue-600 hover:text-blue-400 flex items-center underline"
